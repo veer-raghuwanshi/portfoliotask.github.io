@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+
+.header {
+    background-color: cadetblue;
+    position: fixed;
+    height: 71px;
+    width: 100%;
+    /* text-align: left; */
+    
+    
+}
+
+.image {
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+    height: 70px;
+    width: 8em;
+    background-color: aqua;
+    border: 1px solid black;
+    
+    
+}
+#menu-bar{       
+    
+     text-decoration: none;
+     background-color:cyan;
+
+     text-align: right;
+
+    }
+    #menu-bar li  {
+        display: inline-block;
+        padding: 15px 20px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: chocolate;
+    }
+    #menu-bar li a{
+        text-decoration: none;
+    }
+    .set{
+        margin: 0px;
+    }
+    
+    

@@ -165,21 +165,21 @@ margin-left: 70%;
           
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .boxe {width: 8.33%;}
-  .boxe {width: 16.66%;}
-  .boxe {width: 25%;}
-  .boxe {width: 33.33%;}
-  .boxe {width: 41.66%;}
-  .boxe {width: 50%;}
-  .boxe {width: 58.33%;}
-  .boxe{width: 66.66%;}
-  .boxe {width: 75%;}
-  .boxe {width: 83.33%;}
-  .boxe {width: 91.66%;}
-  .boxe {width: 100%;
+  .boxe  {width: 8.33%;}
+  .boxe  {width: 16.66%;}
+  .boxe  {width: 25%;}
+  .boxe  {width: 33.33%;}
+  .boxe  {width: 41.66%;}
+  .boxe  {width: 50%;}
+  .boxe  {width: 58.33%;}
+  .boxe {width: 66.66%;}
+  .boxe  {width: 75%;}
+  .boxe  {width: 83.33%;}
+  .boxe  {width: 91.66%;}
+  .boxe  {width: 100%;
   }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 300px) {
   /* For tablets: */
   .boxe {width: 8.33%;}
   .boxe {width: 16.66%;}
@@ -193,4 +193,9 @@ margin-left: 70%;
   .boxe {width: 83.33%;}
   .boxe {width: 91.66%;}
   .boxe {width: 100%;}
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }

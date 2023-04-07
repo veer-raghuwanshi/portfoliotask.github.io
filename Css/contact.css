@@ -201,3 +201,65 @@ textarea{
     bottom: 24px;
 
 }
+input[type="text"]{
+color: red;
+}
+input[type="email"]{
+  color: red;
+  }
+  textarea{
+    color: red;
+  }
+  /* @media(min-width: 992px) {
+
+  .name1,.name2,.email1,.email2,.msg,.textarea,.btn
+  
+    {
+        float: left;
+    }
+
+    
+}
+
+/* For Tablet */
+
+/* @media(min-width:768px) and (max-width:991px) {
+  .name1,.name2,.email1,.email2,.msg,.textarea,.btn
+  {
+        width: 50%;
+        float: left;
+    }
+
+    .name1,.name2,.email1,.email2,.msg,.textarea,.btn
+    {
+        width: 50%;
+        float: left;
+    }
+}  */
+
+/* For Mobile */
+
+@media(max-width:400px) {
+  /* .name1,.name2,.email1,.email2,.msg,.textarea,.btn,.container
+  {
+        width: 100%;
+        
+    } */
+  p,  .input1,.name1,.input2,.textarea{
+      width: fit-content;
+    
+    }
+   p, .contact_us,.first,.fp{
+      width: 100%;
+
+    }
+   p, .sc,.second{
+      width: 100%;
+    }
+   p, .thi,.third{
+      width: 100%;
+    }
+  p,  .map{
+    width: 100%;
+  }
+}
